@@ -1,0 +1,70 @@
+
+
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+		font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    background: #F8F8FF;
+
+
+	padding-top: 24px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: "Playfair Display" serif;
+	font-weight: 400;
+}
+
+.custom-header{
+    font-weight: 400;
+    font-size: 72px;
+}
+
+.body-content .item{
+    font-weight: 400;
+    font-size: 36px;
+	margin-top: 24px;
+}
+
+.body-content p{
+	padding-top: 24px;
+}
+
+a { 
+	color: #1abc9c;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#696E74;
+}
